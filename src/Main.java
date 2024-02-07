@@ -30,6 +30,8 @@ public class Main {
         System.out.println("What is the cost of the item?");
         //input itemPrice
         itemPrice = in.nextDouble();
+        //clear buffer
+        in.nextLine();
         //if statements with input of itemPrice and output shipping cost and total cost
         if(itemPrice >= 100){
             shippingCost = 0;
