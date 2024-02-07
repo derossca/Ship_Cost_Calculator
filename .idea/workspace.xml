@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51670db9-61d7-4b55-a439-933f086043bd" name="Changes" comment="Added pseudo code, imported scanner, declared variables">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="51670db9-61d7-4b55-a439-933f086043bd" name="Changes" comment="added buffer clear" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707315602020</updated>
-      <workItem from="1707315603488" duration="2954000" />
+      <workItem from="1707315603488" duration="3302000" />
     </task>
     <task id="LOCAL-00001" summary="Added pseudo code, imported scanner, declared variables">
       <option name="closed" value="true" />
@@ -65,7 +62,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707317050486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added user input for itemPrice, added if else statements and output for each">
+      <option name="closed" value="true" />
+      <created>1707320098436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320098436</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added buffer clear">
+      <option name="closed" value="true" />
+      <created>1707320245798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320245798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added pseudo code, imported scanner, declared variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pseudo code, imported scanner, declared variables" />
+    <MESSAGE value="added user input for itemPrice, added if else statements and output for each" />
+    <MESSAGE value="added buffer clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="added buffer clear" />
   </component>
 </project>
