@@ -26,21 +26,29 @@ public class Main {
         double itemPrice = 0;
         double shippingCost = 0;
         double totalCost = itemPrice + shippingCost;
+        String trash = "";
         //output asking for itemPrice
         System.out.println("What is the cost of the item?");
-        //input itemPrice
-        itemPrice = in.nextDouble();
-        //clear buffer
-        in.nextLine();
-        //if statements with input of itemPrice and output shipping cost and total cost
-        if(itemPrice >= 100){
-            shippingCost = 0;
-            System.out.println("Shipping is " + shippingCost + " and your total is " + (shippingCost + itemPrice));
+        if (in.hasNextDouble()) {
+            //input itemPrice
+            itemPrice = in.nextDouble();
+            //clear buffer
+            in.nextLine();
+            //if statements with input of itemPrice and output shipping cost and total cost
+            if (itemPrice >= 100) {
+                shippingCost = 0;
+                System.out.println("Shipping is " + shippingCost + " and your total is " + (shippingCost + itemPrice));
+            }
+            //else shipping is 2% of itemPrice and output shipping and total cost
+            else {
+                shippingCost = .02 * itemPrice;
+                System.out.println("Shipping is " + shippingCost + " and your total is " + (shippingCost + itemPrice));
+            }
         }
-        //else shipping is 2% of itemPrice and output shipping and total cost
-        else {
-            shippingCost = .02 * itemPrice;
-            System.out.println("Shipping is " + shippingCost + " and your total is " + (shippingCost + itemPrice));
+        else
+        {
+            trash = in.nextLine();
+            System.out.println("You must enter a valid number not: " + trash);
         }
     }
 }

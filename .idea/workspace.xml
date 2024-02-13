@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51670db9-61d7-4b55-a439-933f086043bd" name="Changes" comment="added buffer clear" />
+    <list default="true" id="51670db9-61d7-4b55-a439-933f086043bd" name="Changes" comment="updated project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2c2hV6PLQEuEurqzUlI7uE2rk5i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,6 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vccstudents/Library/CloudStorage/OneDrive-UniversityofCincinnati/UC/CPI/Lab_05/Ship_Cost_Calculator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +56,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707315602020</updated>
-      <workItem from="1707315603488" duration="3302000" />
+      <workItem from="1707315603488" duration="3452000" />
+      <workItem from="1707320713463" duration="8000" />
+      <workItem from="1707323405132" duration="159000" />
+      <workItem from="1707786045194" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="Added pseudo code, imported scanner, declared variables">
       <option name="closed" value="true" />
@@ -78,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707320245798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated project">
+      <option name="closed" value="true" />
+      <created>1707320493699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320493699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +103,7 @@
     <MESSAGE value="Added pseudo code, imported scanner, declared variables" />
     <MESSAGE value="added user input for itemPrice, added if else statements and output for each" />
     <MESSAGE value="added buffer clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="added buffer clear" />
+    <MESSAGE value="updated project" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project" />
   </component>
 </project>
